@@ -17,4 +17,4 @@ public class Main {
         player.displayStatus();
     }
 }
-}
+
