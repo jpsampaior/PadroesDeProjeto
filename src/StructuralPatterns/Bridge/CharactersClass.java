@@ -3,6 +3,7 @@ package StructuralPatterns.Bridge;
 class Bard implements ICharacter {
     private IWeapon weapon;
 
+    @Override
     public void setWeapon(IWeapon weapon) {
         this.weapon = weapon;
         this.weapon.upgrade();
@@ -19,6 +20,7 @@ class Bard implements ICharacter {
 class Mage implements ICharacter {
     private IWeapon weapon;
 
+    @Override
     public void setWeapon(IWeapon weapon) {
         this.weapon = weapon;
         this.weapon.upgrade();
